@@ -26,19 +26,19 @@ Antes de executar o programa, certifique-se de ter o seguinte instalado em seu s
 ## Configuração
 
 1. Clone o repositório:
-
+```
 git clone https://github.com/alvarorichard/APIFortress.git
 
 cd api-frotress
-
+```
 
 2. Instale as dependências do Diesel CLI e execute as migrações do banco de dados:
 
-
+```
 cargo install diesel_cli --no-default-features --features postgres
 diesel setup
 diesel migration run
-
+```
 
 3. Crie um arquivo `.env` na raiz do projeto e defina as variáveis de ambiente necessárias:
 
