@@ -9,19 +9,19 @@ API Frotress é um programa de exemplo que implementa uma API para gerenciamento
 
 ## Funcionalidades
 
-- Listar todos os funcionários
-- Encontrar um funcionário por ID
-- Criar um novo funcionário
-- Atualizar um funcionário existente
-- Excluir um funcionário
+* Listar todos os funcionários
+* Encontrar um funcionário por ID
+* Criar um novo funcionário
+* Atualizar um funcionário existente
+* Excluir um funcionário
 
 ## Pré-requisitos
 
 Antes de executar o programa, certifique-se de ter o seguinte instalado em seu sistema:
 
-- Rust (1.50.0 ou superior)
-- PostgreSQL (com banco de dados e usuário configurados)
-- Diesel CLI (para executar as migrações do banco de dados)
+* Rust (1.50.0 ou superior)
+* PostgreSQL (com banco de dados e usuário configurados)
+* Diesel CLI (para executar as migrações do banco de dados)
 
 ## Configuração
 
