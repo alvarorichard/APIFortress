@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="searx - a privacy-respecting, hackable metasearch engine" />
+    <meta name="keywords" content="searx, search, search engine, metasearch, meta search" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="generator" content="searx/0.15.0">
+    <meta name="referrer" content="no-referrer">
+    <meta name="viewport" content="width=device-width, initial-scale=1 , maximum-scale=1.0, user-scalable=1" />
+    <title>searx</title>
+
+    <link rel="stylesheet" href="static/css/bootstrap.min.css" type="text/css" />
+        <link rel="stylesheet" href="static/themes/oscar/css/logicodev.min.css" type="text/css" />
+    <link rel="stylesheet" href="static/themes/oscar/css/leaflet.min.css" type="text/css" />
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="/static/js/html5shiv.min.js"></script>
+      <script src="/static/js/respond.min.js"></script>
+    <![endif]-->
+
+    <link rel="shortcut icon" href="static/themes/oscar/img/favicon.png" />
+
+
+    <link title="searx" type="application/opensearchdescription+xml" rel="search" href="opensearch.xml"/>
+    <noscript>
+        <style type="text/css">
+            .tab-content > .active_if_nojs, .active_if_nojs {display: block !important; visibility: visible !important;}
+            .margin_top_if_nojs {margin-top: 20px;}
+            .hide_if_nojs {display: none !important;overflow:none !important;}
+            .disabled_if_nojs {pointer-events: none; cursor: default; text-decoration: line-through;}
+        </style>
+    </noscript>
+</head>
+<body>
+<div class="searx-navbar">
+   
+  
+</div>    <div class="container">
+
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="text-center col-sm-12 col-md-12">
+                <h1 class="text-hide center-block" id="main-logo">
+                    <img class="center-block img-responsive" src="https://i.imgur.com/PNntykt.png" alt="searx logo" />
+                    searx
+                </h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="text-center col-sm-12 col-md-12">
+
+<form method="POST" action="clear_cookies" id="search_form" role="search">
+    <div class="input-group col-md-8 col-md-offset-2">
+        <input type="search" name="q" class="form-control input-lg autofocus" id="q" placeholder="Search for..." autocomplete="off" value="">
+        <span class="input-group-btn">
+            <button type="submit" class="btn btn-default input-lg"><span class="hide_if_nojs"><span class="glyphicon glyphicon-search"></span></span><span class="hidden active_if_nojs">Start search</span></button>
+        </span>
+    </div>
+    <div class="col-md-8 col-md-offset-2  advanced">
+<input type="checkbox" name="advanced_search" id="check-advanced" >
+<label for="check-advanced">
+    <span class="glyphicon glyphicon-cog"></span>
+    Advanced settings
+</label>
+
+
+</form><!-- / #search_form_full -->        </div>
+    </div>
+</div>
+
+    </div>
+    <div class="footer">
+        <div class="container">
+            
+        </div>
+    </div>
+    <script src="static/js/jquery-1.11.1.min.js"></script>
+    <script src="static/js/bootstrap.min.js"></script>
+    <script src="static/js/require-2.1.15.min.js"></script>
+    <script src="static/themes/oscar/js/searx.min.js"
+            data-method="POST"
+            data-autocompleter="false"></script>
+        <script src="static/plugins/js/search_on_category_select.js"></script>
+    <noscript>
+      <style>
+        .glyphicon { display: none; }
+      </style>
+    </noscript>
+</body>
+</html>
