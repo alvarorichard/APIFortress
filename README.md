@@ -3,9 +3,9 @@
 </p>
 
 
-# API Frotress
+# API Fortress
 
-API Frotress é um programa de exemplo que implementa uma API para gerenciamento de funcionários. A API permite criar, ler, atualizar e excluir funcionários de um banco de dados PostgreSQL usando o framework Diesel.
+API Fortress é um programa de exemplo que implementa uma API para gerenciamento de funcionários. A API permite criar, ler, atualizar e excluir funcionários de um banco de dados PostgreSQL usando o framework Diesel.
 
 ## Funcionalidades
 
