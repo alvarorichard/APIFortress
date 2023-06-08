@@ -7,6 +7,13 @@
 
 API Fortress é um programa de exemplo que implementa uma API para gerenciamento de funcionários. A API permite criar, ler, atualizar e excluir funcionários de um banco de dados PostgreSQL usando o framework Diesel.
 
+## Integrantes
+
+* Alvaro Richard
+* Leonardo Ravanelli
+* Lana Caroline
+
+
 ## Funcionalidades
 
 * Listar todos os funcionários
