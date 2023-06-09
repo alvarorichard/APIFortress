@@ -12,7 +12,7 @@ API Fortress é um programa de exemplo que implementa uma API para gerenciamento
 * Alvaro Richard
 * Leonardo Ravanelli
 * Lana Caroline
-* Rodrigo Lopes
+* Rodrigo Lopes de Souza
 
 
 ## Funcionalidades
