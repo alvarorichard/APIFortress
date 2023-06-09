@@ -30,6 +30,11 @@ Antes de executar o programa, certifique-se de ter o seguinte instalado em seu s
 * Rust (1.50.0 ou superior)
 * PostgreSQL (com banco de dados e usuário configurados)
 * Diesel CLI (para executar as migrações do banco de dados)
+* libpq5
+* postgresql-client
+* libpq-dev
+* postgresql
+
 
 ## Configuração
 
@@ -46,6 +51,10 @@ cd api-frotress
 cargo install diesel_cli --no-default-features --features postgres
 diesel setup
 diesel migration run
+rustup update nightly && rustup default nightly
+cargo build --release
+./target/release/notely_rust
+ 
 ```
 
 3. Crie um arquivo `.env` na raiz do projeto e defina as variáveis de ambiente necessárias:
