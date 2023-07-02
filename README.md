@@ -39,24 +39,33 @@ Antes de executar o programa, certifique-se de ter o seguinte instalado em seu s
 ## Configuração
 
 1. Clone o repositório:
-```
+```shell
 git clone https://github.com/alvarorichard/APIFortress.git
 
+```
+```shell
 cd api-frotress
 ```
 
 2. Instale as dependências do Diesel CLI e execute as migrações do banco de dados:
 
-```
+```rust
 cargo install diesel_cli --no-default-features --features postgres
+```
+```rust
 diesel setup
-diesel migration run
-rustup update nightly && rustup default nightly
-cargo build --release
-./target/release/notely_rust
- 
 ```
 
+```rust
+diesel migration run
+```
+
+```rust
+rustup update nightly && rustup default nightly
+```
+```rust
+cargo build --release./target/release/notely_rust 
+```
 3. Crie um arquivo `.env` na raiz do projeto e defina as variáveis de ambiente necessárias:
 
 DATABASE_URL=postgres://username:password@localhost/database
@@ -70,9 +79,9 @@ Certifique-se de substituir `username`, `password` e `database` com suas própri
 
 Para compilar e executar o programa, execute o seguinte comando na raiz do projeto:
 
-
+```rust
 cargo run
-
+```
 
 A API estará disponível em `http://localhost:8080`.
 
